@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.header-h{
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: aliceblue;
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.new-api{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 20vh;
+}
+.new-api .rand-button{
+  background-color: #ccc;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 25px;
+  border: thin;
+}
+.color-c{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 20vh;
+}
+
+.color-c .button-c{
+  background-color: #ccc;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 25px;
+  border: thin;
+}
+
+.Timer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 20vh;
+}
+
+.Timer .button{
+  background-color: #ccc;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 25px;
+  border: thin;
+  font-size: .8rem;
+  text-transform: uppercase;
+}
+
+.numberPlus h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.numberPlus #button-n{
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 92vh;
+}
+
+.negative{
+  color: red;
+}
+
+.positive{
+  color: green;
+}
+
+.useMap{
+  border-radius: 13px;
+  border: solid;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
